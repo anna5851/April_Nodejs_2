@@ -18,5 +18,8 @@ pipeline {
           sh 'docker tag my_node_app:1.0 anna5851/nodejs-project-3:1.0'
           sh 'docker push anna5851/nodejs-project-3:1.0'
           sh 'docker logout'
+        }
+      }
+    }
   }
 }
