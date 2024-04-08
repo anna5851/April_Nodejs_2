@@ -6,9 +6,9 @@ pipeline {
         checkout scm
       }
     }
-    stage("Build"){
+    stage("Build Image"){
       steps{
-        sh 'npm run build'
+        sh 'docker build -t my.node.app.2:1.0 .'
       }
     }
   }
