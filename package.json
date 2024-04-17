@@ -6,9 +6,10 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "",
+  "author": "Anna",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "axios": "^1.6.8"
   }
 }
